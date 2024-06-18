@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schedules",
+  "info": {
+    "singularName": "schedule",
+    "pluralName": "schedules",
+    "displayName": "Schedule",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "date": {
+      "type": "date"
+    },
+    "group": {
+      "type": "string"
+    },
+    "lessons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "lesson.lesson"
+    }
+  }
+}

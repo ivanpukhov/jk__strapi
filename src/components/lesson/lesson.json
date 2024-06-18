@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_lesson_lessons",
+  "info": {
+    "displayName": "Lesson"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "string"
+    },
+    "teacher": {
+      "type": "string"
+    },
+    "classroom": {
+      "type": "string"
+    }
+  }
+}
