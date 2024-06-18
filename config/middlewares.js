@@ -5,7 +5,7 @@ module.exports = [
     name: 'strapi::cors',
     config: {
       enabled: true,
-      origin: ['https://ivanpukhov.github.io/jk__react/'],
+      origin: '*',
     },
   },
   'strapi::poweredBy',
